@@ -1,0 +1,107 @@
+#search{
+    align-content: center;
+    width: 30rem;
+}
+
+.container{
+    padding-left: 0;
+    padding-right: 0; 
+}
+
+#searchcontainer{
+    padding-left: 15%;
+}
+
+.bg-dark{
+    background-color: #272727!important;
+}
+
+.form-control{
+    background-color: #121212!important;
+    border: 1px solid #303030;
+}
+
+.btn-dark{
+    background-color: #383838;
+    border: #303030;
+}
+
+a{
+    color: white;
+}
+
+
+body{
+    background-color: #121212;
+}
+
+@media (min-width: 576px) {
+    #search{
+        width: 15rem;
+    }
+}
+
+@media (min-width: 768px)  {
+    #search{
+        width: 20rem;
+    }
+}
+
+@media (min-width: 992px) {
+    #search{
+        width: 30rem;
+    }
+    }
+
+
+h3{
+    font-size: 1.2rem;
+    }
+
+
+.thumbnail{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.channel-id{
+    color: gray;
+}
+
+hr { 
+    margin: 1.3rem 0;
+    border: 0; height: 1px; background: #333; background-image: linear-gradient(to right, #ccc, #333, #ccc);
+ }
+
+ .video-title{
+     width: 180px;
+     overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+ }
+
+ text-overflow{
+     color: white;
+ }
+
+
+.profile{
+     border-radius: 50%;
+ }
+
+ .btn-link{
+     color: white;
+ }
+
+ .fa-youtube{
+     font-size: 2rem;
+ }
+
+ .youtube-logo{
+     text-transform: uppercase;
+     font-weight: bold;
+    font-size: 1.65rem;
+    color: rgba(FFFF, FFFF, FFFF, 0.1);
+    padding-left: 5px;
+ }
